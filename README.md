@@ -44,8 +44,8 @@ Modifier `src/main/resources/application.properties` avec vos identifiants MySQL
 ### Démarrage du Backend
 ```bash
 # Cloner le projet
-git clone https://github.com/MinaBouzid1/Atelier5_web-services.git
-cd Atelier5_web-services
+git clone https://github.com/MinaBouzid1/gestion-stations.git
+cd gestion-stations
 
 # Compiler et lancer
 mvn clean install
@@ -91,7 +91,7 @@ Le frontend sera accessible sur **http://localhost:4200**
 
 ## 🗂️ Structure du Projet
 ```
-Atelier5_web-services/
+gestion-stations/
 ├── src/main/java/           # Code source Backend
 │   ├── entities/            # Entités JPA
 │   ├── repositories/        # Repositories
