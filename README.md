@@ -19,7 +19,7 @@ Cette application permet de gérer efficacement :
 ### Frontend - Angular
 - **Port** : `4200`
 - **Technologies** : Angular 17+, Bootstrap 5, TypeScript
-- **Emplacement** : `/frontend` (intégré dans le projet backend)
+- **Emplacement** : `/gestion-stations-frontend` (intégré dans le projet backend)
 
 ### Base de données - MySQL
 - **Port** : `3306`
@@ -57,7 +57,7 @@ Le backend sera accessible sur **http://localhost:8080**
 ### Démarrage du Frontend
 ```bash
 # Naviguer vers le dossier frontend
-cd gestion-station-frontend
+cd gestion-stations-frontend
 
 # Installer les dépendances
 npm install
@@ -99,7 +99,7 @@ gestion-stations/
 │   └── controllers/         # Controllers REST
 ├── src/main/resources/      # Configuration Backend
 │   └── application.properties
-├── gestion-station-frontend/                # Application Angular
+├── gestion-stations-frontend/                # Application Angular
 │   ├── src/app/
 │   │   ├── components/      # Composants Angular
 │   │   ├── services/        # Services HTTP
